@@ -105,9 +105,8 @@ Kafka é uma aplicação Java e necessita de um JDK instalado no ambiente. Recom
 Caso não existam restrições impostas, sempre instalar a versão mais recente.
 
 #### ZooKeeper
-O Kafka usa do ZooKeeper como `Cluster`, armazenando metadados do ambiente e dos `Consumers`. Recomenda-se instalar a versão 3.5 ou superior.
-
-(imagem 2-1)
+O Kafka usa do ZooKeeper como `Cluster`, armazenando metadados do ambiente e dos `Consumers`. Recomenda-se instalar a versão 3.5 ou superior.\
+![image](https://github.com/user-attachments/assets/f7f2d207-f23f-4e3b-b12c-ee026eda8db2)
 
 Assim que instalado, já existe exemplos de configuração padrão para se usar em `/usr/local/zookeeper/config/zoo_sample.cfg`.\
 Mas o livro concede uma instalação com configurações próprias, tendo como base ZooKeeper 3.5.9 e JDK 11:
@@ -219,29 +218,30 @@ export JAVA_HOME=/usr/java/jdk-11.0.10
 ~~~
 
 #### Testando Kafka Broker
-Uma vez que o Kafka estiver rodando, podemos testar algumas operações básicas:
-1. Criando tópico de teste.
-   ~~~bash
-   # Criando tópico no Broker `localhost:9092` sob o nome `test`
-   /usr/local/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --replication-factor 1 --partitions 1 --topic test
-   
-   # Exibindo tópico alvo
-   /usr/local/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic test
-   ~~~
+Uma vez que o Kafka estiver rodando, podemos testar algumas operações básicas.
 
-2. Publicando mensagens.
-   ~~~bash
-   # Publicando 2 mensagens no Broker `localhost:9092` para o tópico `test`
-   /usr/local/kafka/bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic test
-   Test Message 1
-   Test Message 2
-   # Use o comando ` Ctrl+C` para sair do `Producer` a qualquer momento
-   ~~~
+Criando tópico de teste:
+~~~bash
+# Criando tópico no Broker `localhost:9092` sob o nome `test`
+/usr/local/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --replication-factor 1 --partitions 1 --topic test
 
-3. Consumindo mensagens.
-   ~~~bash
-   # Consome as mensagens, desde o início, no Broker `localhost:9092` para o tópico `test`
-   /usr/local/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
-   ~~~
+# Exibindo tópico alvo
+/usr/local/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic test
+~~~
+
+Publicando mensagens:
+~~~bash
+# Publicando 2 mensagens no Broker `localhost:9092` para o tópico `test`
+/usr/local/kafka/bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic test
+Test Message 1
+Test Message 2
+# Use o comando ` Ctrl+C` para sair do `Producer` a qualquer momento
+~~~
+
+Consumindo mensagens:
+~~~bash
+# Consome as mensagens, desde o início, no Broker `localhost:9092` para o tópico `test`
+/usr/local/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+~~~
 
 
