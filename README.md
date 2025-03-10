@@ -1,6 +1,8 @@
 # Kafka - Direto ao Ponto
-Guia resumido criado por João Costal Aguiar à partir do livro: <i>"Kafka - the Definitive Guide 2º Edition"</i>,  escrito por Gwen Shapira, Todd Palino, Rajini Sivaram Krit Petty.\
-Essa apresentação destaca os principais pontos dos tópicos mais relevantes nos capítulos deste  material disponibilizado pela Confluent, atual detentora da tecnologia.
+Guia resumido criado por João Costal Aguiar à partir do livro: <i>"Kafka - the Definitive Guide 2º Edition"</i>,  escrito por Gwen Shapira, Todd Palino, Rajini Sivaram Krit Petty. Essa apresentação destaca os principais pontos dos tópicos mais relevantes nos capítulos deste  material disponibilizado pela Confluent, atual detentora da tecnologia.
+
+![image](https://github.com/user-attachments/assets/ef663a3c-2e01-4fd0-ae00-0fd706889719)
+
 
 # Sumário
 - [Capítulo 01: Conhecendo Kafka](?)
