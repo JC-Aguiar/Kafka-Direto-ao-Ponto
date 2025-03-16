@@ -6,11 +6,11 @@ Guia resumido criado por João Costal Aguiar à partir do livro: <i>"Kafka - the
 
 
 # Sumário
-- [Conhecendo Kafka](?)
-- [Instalando Kafka](?)
-- [Criando Servidor Kafka](?)
-- [Configurando Cluster Kafka](?)
-- [Kafka Producers](?)
+- [Conhecendo Kafka](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/blob/main/README.md#conhecendo-kafka)
+- [Instalando Kafka](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/blob/main/README.md#instalando-kafka)
+- [Criando Servidor Kafka](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/blob/main/README.md#instalando-kafka)
+- [Configurando Cluster Kafka](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/edit/main/README.md#configurando-cluster-kafka)
+- [Kafka Producers](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/edit/main/README.md#kafka-producers)
 
 
 
