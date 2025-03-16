@@ -5,15 +5,6 @@
 Guia resumido criado por João Costal Aguiar à partir do livro: <i>"Kafka - the Definitive Guide 2º Edition"</i>,  escrito por Gwen Shapira, Todd Palino, Rajini Sivaram Krit Petty. Essa apresentação destaca os principais pontos dos tópicos mais relevantes nos capítulos deste  material disponibilizado pela Confluent, atual detentora da tecnologia.
 
 
-# Sumário
-- [Conhecendo Kafka](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/blob/main/README.md#conhecendo-kafka)
-- [Instalando Kafka](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/blob/main/README.md#instalando-kafka)
-- [Criando Servidor Kafka](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/blob/main/README.md#instalando-kafka)
-- [Configurando Cluster Kafka](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/edit/main/README.md#configurando-cluster-kafka)
-- [Kafka Producers](https://github.com/JC-Aguiar/Kafka-Direto-ao-Ponto/edit/main/README.md#kafka-producers)
-
-
-
 # Conhecendo Kafka
 Este resumo abrange as páginas 1 a 17 do livro e tem como objetivo fazer uma abordagem geral dos principais elementos da tecnologia.\
 Outros capítulos irão se aprofundar e explorar em mais detalhes cada um dos pontos descritos à seguir. 
