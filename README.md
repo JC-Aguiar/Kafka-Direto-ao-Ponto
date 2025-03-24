@@ -103,7 +103,7 @@ Kafka é uma aplicação Java e necessita de um JDK instalado no ambiente. Recom
 Caso não existam restrições impostas, sempre instalar a versão mais recente.
 
 #### ZooKeeper
-O Kafka usa do ZooKeeper como `Cluster`, armazenando metadados do ambiente e dos `Consumers`. Recomenda-se instalar a versão 3.5 ou superior.\
+O Kafka usa do ZooKeeper como `Cluster`, armazenando metadados do ambiente e dos `Brokers`. Recomenda-se instalar a versão 3.5 ou superior.\
 ![image](https://github.com/user-attachments/assets/f7f2d207-f23f-4e3b-b12c-ee026eda8db2)
 
 Assim que instalado, já existe exemplos de configuração padrão para se usar em `/usr/local/zookeeper/config/zoo_sample.cfg`.\
